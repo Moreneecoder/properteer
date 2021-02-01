@@ -59,6 +59,10 @@
   height: 120px;
 }
 
+.social-links i {
+  margin-right: 10px;
+}
+
 .homes-item-action button {
   border-radius: 0;
   padding: 0 7px 3px 7px;
@@ -75,4 +79,36 @@
 .dropdown-item:hover {
   background-color: #383838;
   color: white;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-note {
+  flex-basis: 46%;
+}
+
+.footer-note p {
+  font-size: 0.8em;
+}
+
+.footer-links-wrapper {
+  flex-basis: 46%;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-a,
+.links-b {
+  font-size: 0.9em;
+  flex-basis: 40%;
 }
