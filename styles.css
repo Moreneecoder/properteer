@@ -172,11 +172,42 @@
 }
 
 .result-item-img {
+  background-image: url('assets/images/2-bedroom-img.jpg');
+  width: 40%;
+  height: 140px;
+}
+
+.result-item-img-2 {
   background-image: url('assets/images/hot-ad-image1.jpg');
+  width: 40%;
+  height: 140px;
+}
+
+.result-item-img-3 {
+  background-image: url('assets/images/house-img-1.jpg');
+  width: 40%;
+  height: 140px;
+}
+
+.result-item-img-4 {
+  background-image: url('assets/images/office-space-1.jpg');
   width: 40%;
   height: 140px;
 }
 
 .result-item-text {
   width: 55%;
+}
+
+.pagination {
+  width: 40%;
+}
+
+.pagination a:hover {
+  background-color: #d35266 !important;
+  color: white;
+}
+
+.remove-hover-effect:hover {
+  color: #383838;
 }
