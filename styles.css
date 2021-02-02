@@ -38,6 +38,14 @@
   background-color: #d35266;
 }
 
+.off-white {
+  color: #f7f7f7;
+}
+
+.bg-off-white {
+  background-color: #f7f7f7;
+}
+
 .logo-img {
   width: 30px;
 }
