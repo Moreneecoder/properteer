@@ -86,6 +86,10 @@
   padding: 0 5px 3px 5px;
 }
 
+.date-price p {
+  font-size: 0.7em;
+}
+
 .title-divider {
   width: 95%;
 }
@@ -260,6 +264,26 @@
     width: 65%;
   }
 
+  .ad-item-img {
+    background-image: url('assets/images/2-bedroom-img.jpg');
+    width: 40%;
+    height: 180px;
+  }
+
+  .ad-item-text {
+    width: 55%;
+  }
+
+  .ad-toggle {
+    padding: 10px 18px;
+    font-size: 1.6em;
+    border: 1px solid #888;
+  }
+
+  .ad-buttons button:first-child {
+    border-right: 2px solid #383838;
+  }
+
   .result-item-img {
     background-image: url('assets/images/2-bedroom-img.jpg');
     width: 30%;
@@ -284,6 +308,10 @@
     height: 180px;
   }
 
+  .date-price p {
+    font-size: 1em;
+  }
+
   .filter-size input:last-child {
     width: 50px;
   }
@@ -302,15 +330,59 @@
   }
 
   .footer-note {
-    flex-basis: 24%;
+    flex-basis: 32%;
+  }
+
+  .footer-links-wrapper {
+    flex-basis: 30%;
   }
 
   .footer-links {
-    flex-basis: 24%;
+    flex-basis: 20%;
   }
 
   .footer-navigation {
-    flex-basis: 20%;
+    flex-basis: 14%;
+  }
+
+  .footer-settings {
+    width: 22%;
+    margin-top: 35px;
+    font-size: 0.8em;
+  }
+
+  .categories-divider {
+    width: 85%;
+  }
+
+  .navigation-divider {
+    width: 70%;
+  }
+
+  .footer-settings select {
+    width: 50%;
+  }
+
+  .search-wrapper {
+    padding: 0 5%;
+  }
+
+  .hot-ads {
+    padding: 0 3%;
+  }
+
+  .item-toggler-left {
+    font-size: 2em;
+    z-index: 10;
+    top: 50%;
+    left: -2%;
+  }
+
+  .item-toggler-right {
+    font-size: 2em;
+    z-index: 10;
+    top: 50%;
+    right: -2%;
   }
 }
 
@@ -323,5 +395,61 @@
 @media only screen and (min-width: 1024px) {
   .homes-item-img {
     height: 180px;
+  }
+
+  .search-wrapper {
+    padding: 0 10%;
+  }
+
+  .hot-ads {
+    padding: 0 8%;
+  }
+
+  .footer-note {
+    flex-basis: 34%;
+  }
+
+  .footer-links-wrapper {
+    flex-basis: 24%;
+  }
+
+  .footer-links {
+    flex-basis: 20%;
+  }
+
+  .footer-navigation {
+    flex-basis: 12%;
+  }
+
+  .footer-settings {
+    width: 17%;
+    margin-top: 35px;
+    font-size: 0.8em;
+  }
+
+  .categories-divider {
+    width: 85%;
+  }
+
+  .navigation-divider {
+    width: 70%;
+  }
+
+  .footer-settings select {
+    width: 50%;
+  }
+
+  .item-toggler-left {
+    font-size: 2em;
+    z-index: 10;
+    top: 50%;
+    left: -2%;
+  }
+
+  .item-toggler-right {
+    font-size: 2em;
+    z-index: 10;
+    top: 50%;
+    right: -2%;
   }
 }

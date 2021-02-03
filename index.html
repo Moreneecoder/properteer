@@ -33,7 +33,7 @@
     </nav>
 
     <main>
-        <section class="search-wrapper d-none d-md-block bg-pink py-5 px-5 text-white">
+        <section class="search-wrapper d-none d-md-block bg-pink py-5 text-white">
             <h3 class="text-center bold-font">PROPERTEER</h3>
             <p class="text-center medium-font">Owning a home just got easier...</p>
 
@@ -61,6 +61,50 @@
 
         </section>
 
+        <section class="hot-ads card d-none d-md-block remove-border-radius pt-4">
+
+            <section class="ad-wrapper row align-items-center">
+
+                <div class="col-1 px-0">
+                    <span class="ad-toggle pink rounded-circle"><i class="fas fa-angle-left"></i></span>
+                </div>
+                
+                <div class="col-10">
+                    <h6 class="medium-font grey">HOT ADS</h6>
+
+                    <section class="ad-item bg-white d-flex justify-content-between mb-3 pb-3">
+                        <div class="ad-item-img background-image-style position-relative p-0 m-0">
+                            <div class="image-arrows bg-black position-absolute">
+                                <button class="btn bg-black pink p-0 m-0"><i class="fas fa-angle-left"></i></button>
+                                <button class="btn bg-black pink p-0 m-0"><i class="fas fa-angle-right"></i></button>
+                            </div>
+                        </div>
+        
+                         <div class="ad-item-text pt-2">
+                             <div class="result-item-action d-flex justify-content-between">
+                                <h5 class="medium-font"><a class="pink text-decoration-none remove-hover-effect" href="#">4 Bedroom Terraced Duplex</a></h5>
+                             </div>
+        
+                             <p class="result-desc light-font grey m-0">Luxury Fully Finished 4 Bedroom Flat With 4 Baths, a terrace and BQ. Has a good view of the sea. *Flexible Payment Plan*</p>
+                             <p class="light-font grey my-0 mt-2">By: Ade Bendel</p> 
+                             <p class="search-location medium-font grey my-0">Location: <span class="light-font grey">Ikota Lekki, Lagos</span></p>                
+        
+                             <div class="ad-buttons btn-group mt-2" role="group">                       
+                                 <button class="btn bg-pink text-white medium-font">&#8358;46m</button>
+                                 <button class="btn bg-pink text-white light-font"><i class="fas fa-shopping-cart"></i> Purchase Details</button>
+                             </div>
+                         </div>
+                         
+                    </section>
+                </div>
+
+                <div class="col-1 px-0">
+                    <span class="ad-toggle pink rounded-circle"><i class="fas fa-angle-left"></i></span>
+                </div>
+
+            </section>
+        </section>
+
         <section class="properties bg-off-white pt-3">
             <section class="homes">
                 <h6 class="black medium-font ml-4"><i class="far fa-building grey mr-2"></i> Homes <span class="grey light-font">(Flats, Duplexes)</span></h6>
@@ -68,7 +112,12 @@
 
                 <div class="clear-float"></div>
 
-                <div class="row homes-wrapper mx-1 mx-lg-5">
+                <div class="row homes-wrapper mx-1 position-relative mx-md-4 mx-lg-5">
+
+                    <div class="item-toggler-left d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-left"></i></a>
+                    </div>
+
                     <div class="col-6 col-md-3 office-item px-1 px-lg-2 mb-3">
                         <div class="card">
                             <a href="#"><img class="homes-item-img img-fluid" src="assets/images/house-img-1.jpg" alt="house-image"></a>
@@ -177,6 +226,10 @@
                         </div>
                     </div>
 
+                    <div class="item-toggler-right d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-right"></i></a>
+                    </div>
+
                 </div>
             </section>
 
@@ -186,7 +239,12 @@
 
                 <div class="clear-float"></div>
 
-                <div class="row office-wrapper mx-1">
+                <div class="row office-wrapper mx-md-4 position-relative mx-1">
+
+                    <div class="item-toggler-left d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-left"></i></a>
+                    </div>
+
                     <div class="col-6 col-md-3 office-item px-1 px-lg-2 mb-3">
                         <div class="card">
                             <a href="#"><img class="homes-item-img img-fluid" src="assets/images/office-space-1.jpg" alt="house-image"></a>
@@ -298,6 +356,10 @@
                         </div>
                     </div>
 
+                    <div class="item-toggler-right d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-right"></i></a>
+                    </div>
+
                 </div>
             </section>
         </section>
@@ -305,7 +367,7 @@
     </main>
 
     <footer>
-        <section class="footer-menu mx-4 pt-3">
+        <section class="footer-menu justify-content-around pt-3">
             <section class="footer-note text-center">
                 <a class="footer-logo-link medium-font grey text-decoration-none" href="#">
                     <img class="footer-logo" src="assets/images/dummy-logo.png" alt=""> PROPERTEER
@@ -314,9 +376,9 @@
                 <p class="light-font grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti architecto vero nesciunt? Atque nam voluptates aliquam! Corporis veniam harum alias.</p>
             </section>
 
-            <section class="footer-links-wrapper">
+            <section class="footer-links-wrapper px-3">
                 <h6 class="medium-font pink">CATEGORIES</h6>
-                <hr class="bg-pink m-0 mb-2">
+                <hr class="categories-divider bg-pink m-0 mb-2">
 
                 <section class="footer-links">
                     <section class="links-a">
@@ -342,13 +404,38 @@
             </section>
 
             <section class="footer-navigation d-none d-md-inline">
+                <h6 class="medium-font pink">NAVIGATION</h6>
+                <hr class="navigation-divider bg-pink m-0 mb-2">
+
                 <a class="grey light-font text-decoration-none" href="#">Home</a><br>
-                <a class="grey light-font text-decoration-none" href="#">Automotives</a><br>
-                <a class="grey light-font text-decoration-none" href="#">Electronics</a><br>
-                <a class="grey light-font text-decoration-none" href="#">Clothing</a><br>
-                <a class="grey light-font text-decoration-none" href="#">Fashion</a><br>
-                <a class="grey light-font text-decoration-none" href="#">Food &amp; Drink</a><br>
-                <a class="grey light-font text-decoration-none" href="#">Kids</a>
+                <a class="grey light-font text-decoration-none" href="#">Sign In</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Sign Up</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Terms &amp; Conditions</a><br>
+                <a class="grey light-font text-decoration-none" href="#">FAQ</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Help</a>
+            </section>
+
+            <section class="footer-settings d-none d-md-inline">
+                <label class="medium-font pink mr-1" for="country">COUNTRY</label>
+                <select class="border grey rounded p-1" name="" id="">
+                   <option value="">Lagos</option>
+                   <option value="">Abuja</option>
+                   <option value="">Enugu</option> 
+                </select><br>
+
+                <label class="medium-font pink mr-1" for="country">LANGUAGE</label>
+                <select class="border grey rounded p-1" name="" id="">
+                   <option value="">English</option>
+                   <option value="">Abuja</option>
+                   <option value="">Enugu</option> 
+                </select><br>
+
+                <label class="medium-font pink mr-1" for="country">CURRENCY</label>
+                <select class="border grey rounded p-1" name="" id="">
+                   <option value="">Naira</option>
+                   <option value="">Abuja</option>
+                   <option value="">Enugu</option> 
+                </select>
             </section>
         </section>
 
