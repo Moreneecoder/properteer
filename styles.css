@@ -73,7 +73,7 @@
 
 .homes-item-img {
   width: 100%;
-  height: 120px;
+  height: 150px;
 }
 
 .social-links i {
@@ -173,6 +173,10 @@
   flex-basis: 50%;
 }
 
+.footer-navigation {
+  font-size: 0.9em;
+}
+
 .background-image-style {
   background-position: center;
   background-repeat: no-repeat;
@@ -252,7 +256,66 @@
     margin-right: 0.5%;
   }
 
+  .result-item-text {
+    width: 65%;
+  }
+
+  .result-item-img {
+    background-image: url('assets/images/2-bedroom-img.jpg');
+    width: 30%;
+    height: 180px;
+  }
+
+  .result-item-img-2 {
+    background-image: url('assets/images/hot-ad-image1.jpg');
+    width: 30%;
+    height: 180px;
+  }
+
+  .result-item-img-3 {
+    background-image: url('assets/images/house-img-1.jpg');
+    width: 30%;
+    height: 180px;
+  }
+
+  .result-item-img-4 {
+    background-image: url('assets/images/office-space-1.jpg');
+    width: 30%;
+    height: 180px;
+  }
+
+  .filter-size input:last-child {
+    width: 50px;
+  }
+
+  .notification-badge {
+    top: 0;
+    right: 10px;
+  }
+
   .logo-link {
     font-size: 0.9em;
+  }
+
+  .footer-menu {
+    display: flex;
+  }
+
+  .footer-note {
+    flex-basis: 24%;
+  }
+
+  .footer-links {
+    flex-basis: 24%;
+  }
+
+  .footer-navigation {
+    flex-basis: 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .homes-item-img {
+    height: 180px;
   }
 }
