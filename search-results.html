@@ -26,7 +26,7 @@
             <li class="nav-item light-font mr-3 mx-md-0 "><a href="#" class="nav-link grey px-0 px-md-3 position-relative"><i class="fas fa-envelope" style="font-size: 1.2em;"></i> <span class="notification-badge badge bg-pink text-white position-absolute">1</span></a></li>
             <li class="nav-item medium-font mr-3 mx-md-0"><a href="#" class="nav-link text-white px-0 px-md-3"> Mo' Bello</a></li>  
             <li class="nav-item medium-font mr-3 mx-md-0"><a href="#" class="nav-link text-white px-0 px-md-3">
-                <img src="assets/images/MoBello-compressed.jpg" class="img-fluid rounded-circle" width="30px" alt="user image">
+                <img src="assets/images/MoBello-compressed.jpg" class="img-fluid rounded-circle" width="30" alt="user image">
             </a></li>            
         </ul>
         
@@ -81,14 +81,14 @@
     
                     <div class="clear-float"></div>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">Duplex</label><br>
+                    <input id="duplex" type="checkbox" class="mr-2">
+                    <label for="duplex" class="light-font grey mr-2">Duplex</label><br>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">Bungalow</label><br>
+                    <input id="bungalow" type="checkbox" class="mr-2">
+                    <label for="bungalow" class="light-font grey mr-2">Bungalow</label><br>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">Shared Office</label><br>
+                    <input id="shared" type="checkbox" class="mr-2">
+                    <label for="shared" class="light-font grey mr-2">Shared Office</label><br>
                 </div>
 
                 <div class="filter-size">
@@ -98,18 +98,15 @@
     
                     <div class="clear-float"></div>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">2-4 Rooms</label><br>
+                    <input id="rooms1" type="checkbox" class="mr-2">
+                    <label for="rooms1" class="light-font grey mr-2">2-4 Rooms</label><br>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">5+ Rooms</label><br>
-
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">Bungalow</label><br>
+                    <input id="rooms5" type="checkbox" class="mr-2">
+                    <label for="rooms5" class="light-font grey mr-2">5+ Rooms</label><br>
 
                     <div class="filter-size">
-                        <input id="rent" type="checkbox" class="mr-2 mt-1 float-left">
-                        <label for="rent" class="light-font grey mr-2 float-left">Custom</label>
+                        <input id="custom" type="checkbox" class="mr-2 mt-1 float-left">
+                        <label for="custom" class="light-font grey mr-2 float-left">Custom</label>
                         <input type="number" class="light-font grey float-left p-0 text-center" value="5">
                     </div>
 
@@ -123,17 +120,17 @@
     
                     <div class="clear-float"></div>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">&#8358;1m - &#8358;5m</label><br>
+                    <input id="range1" type="checkbox" class="mr-2">
+                    <label for="range1" class="light-font grey mr-2">&#8358;1m - &#8358;5m</label><br>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">&#8358;5m - &#8358;10m</label><br>
+                    <input id="range2" type="checkbox" class="mr-2">
+                    <label for="range2" class="light-font grey mr-2">&#8358;5m - &#8358;10m</label><br>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">&#8358;10m - &#8358;20m</label><br>
+                    <input id="range3" type="checkbox" class="mr-2">
+                    <label for="range3" class="light-font grey mr-2">&#8358;10m - &#8358;20m</label><br>
 
-                    <input id="rent" type="checkbox" class="mr-2">
-                    <label for="rent" class="light-font grey mr-2">&#8358;20m+</label><br>
+                    <input id="range4" type="checkbox" class="mr-2">
+                    <label for="range4" class="light-font grey mr-2">&#8358;20m+</label><br>
                 </div>
 
             </section>
@@ -351,24 +348,24 @@
 
             <section class="footer-settings d-none d-md-inline">
                 <label class="medium-font pink mr-1" for="country">COUNTRY</label>
-                <select class="border grey rounded p-1" name="" id="">
-                   <option value="">Lagos</option>
-                   <option value="">Abuja</option>
-                   <option value="">Enugu</option> 
+                <select id="country" class="border grey rounded p-1">
+                   <option value="#">Lagos</option>
+                   <option value="#">Abuja</option>
+                   <option value="#">Enugu</option> 
                 </select><br>
 
-                <label class="medium-font pink mr-1" for="country">LANGUAGE</label>
-                <select class="border grey rounded p-1" name="" id="">
-                   <option value="">English</option>
-                   <option value="">Abuja</option>
-                   <option value="">Enugu</option> 
+                <label class="medium-font pink mr-1" for="language">LANGUAGE</label>
+                <select id="language" class="border grey rounded p-1">
+                   <option value="#">English</option>
+                   <option value="#">Abuja</option>
+                   <option value="#">Enugu</option> 
                 </select><br>
 
                 <label class="medium-font pink mr-1" for="country">CURRENCY</label>
-                <select class="border grey rounded p-1" name="" id="">
-                   <option value="">Naira</option>
-                   <option value="">Abuja</option>
-                   <option value="">Enugu</option> 
+                <select id="currency" class="border grey rounded p-1">
+                   <option value="#">Naira</option>
+                   <option value="#">Abuja</option>
+                   <option value="#">Enugu</option> 
                 </select>
             </section>
         </section>
