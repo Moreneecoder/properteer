@@ -1,3 +1,6 @@
+* {
+  max-width: 100%;
+}
 
 .light-font {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -101,8 +104,6 @@
 
 .image-arrows button {
   border-radius: 0;
-  padding-left: 5px !important;
-  padding-right: 5px !important;
 }
 
 .homes-item-action button i {
@@ -117,8 +118,10 @@
   height: 30px;
 }
 
-.dropdown-toggle::after {
-  content: none !important;
+.dropdown-toggle::after,
+.dropleft .dropdown-toggle::before,
+.dropup .dropdown-toggle::after {
+  content: none;
 }
 
 .search-dropdown {
@@ -146,7 +149,7 @@
 }
 
 .remove-border-radius {
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .dropdown-item:hover {
@@ -188,6 +191,13 @@
   margin: 2px 4px;
 }
 
+.homes-wrapper,
+.office-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 0.5em;
+}
+
 .result-item-img {
   background-image: url('assets/images/2-bedroom-img.jpg');
   width: 40%;
@@ -221,7 +231,7 @@
 }
 
 .pagination a:hover {
-  background-color: #d35266 !important;
+  background-color: #d35266;
   color: white;
 }
 
@@ -232,11 +242,6 @@
 @media only screen and (max-width: 375px) {
   .nav-link {
     font-size: 0.6em;
-  }
-
-  .nav-item {
-    margin: 0 !important;
-    margin-right: 7px !important;
   }
 
   .logo-img {
@@ -282,6 +287,13 @@
 
   .ad-buttons button:first-child {
     border-right: 2px solid #383838;
+  }
+
+  .homes-wrapper,
+  .office-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .result-item-img {
@@ -371,6 +383,10 @@
     padding: 0 3%;
   }
 
+  .hot-ads h6 {
+    margin-left: 8%;
+  }
+
   .item-toggler-left {
     font-size: 2em;
     z-index: 10;
@@ -393,10 +409,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .homes-item-img {
-    height: 180px;
-  }
-
   .search-wrapper {
     padding: 0 10%;
   }
