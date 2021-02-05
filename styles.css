@@ -83,6 +83,10 @@
   margin-right: 10px;
 }
 
+.result-item {
+  width: 100%;
+}
+
 .homes-item-action button,
 .result-item-action button {
   border-radius: 0;
