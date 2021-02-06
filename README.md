@@ -2,7 +2,7 @@
 >A property marketplace
 
 ## Description
-HTML and CSS3 capstone project at microverse. The project is a responsive website for property purchasing and leasing. Users can see homes and office placement to buy or rent. The original UI design can be found [here](https://www.behance.net/gallery/24796463/ZATTIX) as create by [Muhammed Awad](https://www.behance.net/M_Awad).
+HTML and CSS3 capstone project at microverse. The project is a responsive website for property purchasing and leasing. Users can see homes and office placement to buy or rent. The original UI design can be found [here](https://www.behance.net/gallery/24796463/ZATTIX) as created by [Muhammed Awad](https://www.behance.net/M_Awad).
 
 You can find more details in the demo video [here](https://www.loom.com/share/71348b136b2c461d826d9757b14c15ae)
 
