@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Properteer</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand justify-content-center px-0 px-lg-5 bg-black">
+        <a class="navbar-brand logo-link medium-font text-white" href="https://moreneecoder.github.io/properteer/">
+           <img class="logo-img" src="assets/images/square.jpg" alt=""> PROPERTEER
+        </a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item light-font mr-3 mx-md-0"><a href="https://moreneecoder.github.io/properteer/" class="nav-link grey px-0 px-md-3"><i class="fas fa-home pink"></i> HOME</a></li>
+            <li class="nav-item light-font mr-3 mx-md-0"><a href="search-results.html" class="nav-link grey px-0 px-md-3"><i class="fas fa-border-none"></i> COLLECTIONS</a></li>
+            <li class="nav-item light-font mr-md-3 mx-md-0"><a href="#" class="nav-link grey px-0 px-md-3"><i class="fas fa-shopping-cart"></i> PURCHASE LIST</a></li>
+            <li class="nav-item medium-font d-none d-md-inline"><a href="#" class="nav-link btn bg-pink text-white">P0ST AN AD</a></li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto d-none d-lg-flex">
+            <li class="nav-item light-font mr-3 mx-md-0 "><a href="#" class="nav-link grey px-0 px-md-3 position-relative"><i class="fas fa-envelope" style="font-size: 1.2em;"></i> <span class="notification-badge badge bg-pink text-white position-absolute">1</span></a></li>
+            <li class="nav-item medium-font mr-3 mx-md-0"><a href="#" class="nav-link text-white px-0 px-md-3"> Mo' Bello</a></li>  
+            <li class="nav-item medium-font mr-3 mx-md-0"><a href="#" class="nav-link text-white px-0 px-md-3">
+                <img src="assets/images/MoBello-compressed.jpg" class="img-fluid rounded-circle" width="30" alt="user image">
+            </a></li>            
+        </ul>
+        
+    </nav>
+
+    <main>
+        <section class="search-wrapper d-none d-md-block bg-pink py-5 text-white">
+            <h1 class="page-title text-center bold-font">PROPERTEER</h1>
+            <p class="text-center medium-font">Owning a home just got easier...</p>
+
+            <div class="search-bar">
+                <form class="d-flex flex-wrap justify-content-center" action="#">
+                    
+                    <div class="btn-group search-dropdown-wrapper">
+                        <button class="btn btn-sm btn-light search-dropdown remove-border-radius dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-angle-down"></i> Categories
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item light-font black" href="#">Homes</a>
+                            <a class="dropdown-item light-font black" href="#">Apartments</a>
+                            <a class="dropdown-item light-font black" href="#">Office Spaces</a>
+                        </div>
+                    </div>
+
+                    <input type="text" class="form-control light-font remove-border-radius search-bar-input" placeholder="Flat">
+                    <input type="text" class="form-control light-font remove-border-radius search-bar-location" placeholder="Lekki, Lagos">
+
+                    <a href="search-results.html" class="search-btn btn bg-black grey light-font mx-auto remove-border-radius mt-3 mt-md-0 mx-md-0">Search</a>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="hot-ads card d-none d-md-block remove-border-radius pt-4">
+            <h6 class="medium-font grey">HOT ADS</h6>
+            
+            <div class="ad-wrapper row align-items-center">
+
+                <div class="col-1 px-0">
+                    <span class="ad-toggle pink rounded-circle"><i class="fas fa-angle-left"></i></span>
+                </div>
+                
+                <div class="col-10">                    
+
+                    <div class="ad-item bg-white d-flex justify-content-between mb-3 pb-3">
+                        <div class="ad-item-img background-image-style position-relative p-0 m-0">
+                            <div class="image-arrows btn-group bg-black position-absolute">
+                                <button type="button" class="btn bg-black pink py-0 px-1 m-0"><i class="fas fa-angle-left"></i></button>
+                                <button type="button" class="btn bg-black pink py-0 px-1 m-0"><i class="fas fa-angle-right"></i></button>
+                            </div>
+                        </div>
+        
+                         <div class="ad-item-text pt-2">
+                             <div class="result-item-action d-flex justify-content-between">
+                                <h5 class="medium-font"><a class="pink text-decoration-none remove-hover-effect" href="#">4 Bedroom Terraced Duplex</a></h5>
+                             </div>
+        
+                             <p class="result-desc light-font grey m-0">Luxury Fully Finished 4 Bedroom Flat With 4 Baths, a terrace and BQ. Has a good view of the sea. *Flexible Payment Plan*</p>
+                             <p class="light-font grey my-0 mt-2">By: Ade Bendel</p> 
+                             <p class="search-location medium-font grey my-0">Location: <span class="light-font grey">Ikota Lekki, Lagos</span></p>                
+        
+                             <div class="ad-buttons btn-group mt-2" role="group">                       
+                                 <button type="button" class="btn bg-pink text-white medium-font">&#8358;46m</button>
+                                 <button type="button" class="btn bg-pink text-white light-font"><i class="fas fa-shopping-cart"></i> Purchase Details</button>
+                             </div>
+                         </div>
+                         
+                    </div>
+                </div>
+
+                <div class="col-1 px-0">
+                    <span class="ad-toggle pink rounded-circle"><i class="fas fa-angle-left"></i></span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="properties bg-off-white mb-5 py-3">
+            <h6 class="black medium-font ml-4"><i class="far fa-building grey mr-2"></i> Homes <span class="grey light-font">(Flats, Duplexes)</span></h6>
+            <section class="homes">                
+                <hr class="title-divider float-right">
+
+                <div class="clear-float"></div>
+
+                <div class="homes-wrapper mx-1 position-relative mx-md-4 mx-lg-5">
+
+                    <div class="item-toggler-left d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-left"></i></a>
+                    </div>
+
+                    <div class="h-100 homes-item px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/house-img-1.jpg" alt="house-image"></a>
+
+                            <div class="office-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">5 bedroom detached duplex house</h6></a>
+                                <p class="medium-font pink my-0">For Sale</p>
+                                <p class="light-font grey my-1">Ikate Elegushi, Lagos.</p>                                
+                            </div>
+                            
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    
+                                    <div class="dropdown-menu">
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                </div>
+
+                                <p class="float-right pink">&dollar; 170,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homes-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/2-bedroom-img.jpg" alt="house-image"></a>
+
+                            <div class="homes-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">2 Bedroom Flat, 2 Baths</h6></a>
+                                <p class="medium-font pink my-0">For Sale</p>
+                                <p class="light-font grey my-1">Ajah, Lagos.</p>                                
+                            </div>
+
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    
+                                    <div class="dropdown-menu">
+                                      <!-- Dropdown menu links -->
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                  </div>
+
+                                <p class="float-right pink">&dollar; 90,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homes-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/hot-ad-image1.jpg" alt="house-image"></a>
+
+                            <div class="homes-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">4 Bedroom Terraced Duplex</h6></a>
+                                <p class="medium-font pink my-0">For Sale</p>
+                                <p class="light-font grey my-1">Ikota Lekki, Lagos</p>
+                            </div>
+
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    </button>-->
+                                    <div class="dropdown-menu">
+                                      <!-- Dropdown menu links -->
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                  </div>
+
+                                <p class="float-right pink">&dollar; 90,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homes-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/3-bedroom-img.jpg" alt="house-image"></a>
+
+                            <div class="homes-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">3 Bedroom Bungalow, Parking Space</h6></a>
+                                <p class="medium-font pink my-0">For Sale</p>
+                                <p class="light-font grey my-1">Ikorodu, Lagos.</p>                                
+                            </div>
+
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    
+                                    <div class="dropdown-menu">
+                                      
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                  </div>
+
+                                <p class="float-right pink">&dollar; 90,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-toggler-right d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-right"></i></a>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="office-space mt-3 mx-lg-5">
+                <h6 class="black medium-font ml-4"><i class="far fa-building grey mr-2"></i> Office Spaces <span class="grey light-font">(Shared, Excecutive Suites)</span></h6>
+                <hr class="title-divider float-right">
+
+                <div class="clear-float"></div>
+
+                <div class="office-wrapper mx-md-4 position-relative mx-1">
+
+                    <div class="item-toggler-left d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-left"></i></a>
+                    </div>
+
+                    <div class="office-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/office-space-1.jpg" alt="house-image"></a>
+
+                            <div class="office-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">Excecutive Office Space</h6></a>
+                                <p class="medium-font pink my-0">For Rent</p>
+                                <p class="light-font grey my-1">Ikoyi, Lagos.</p>                                
+                            </div>
+                            
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    
+                                    <div class="dropdown-menu">
+                                     
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                </div>
+
+                                <p class="float-right pink">&dollar; 170,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="office-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/hot-ad-image1.jpg" alt="house-image"></a>
+
+                            <div class="office-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">5 bedroom detached duplex house</h6></a>
+                                <p class="medium-font pink my-0">For Rent</p>
+                                <p class="light-font grey my-1">Ikate Elegushi, Lekki Phase 1, Lagos.</p>                                
+                            </div>
+                            
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    </button>-->
+                                    <div class="dropdown-menu">
+                                      <!-- Dropdown menu links -->
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                </div>
+
+                                <p class="float-right pink">&dollar; 170,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="office-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <img class="homes-item-img img-fluid" src="assets/images/hot-ad-image1.jpg" alt="house-image">
+
+                            <div class="office-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">5 bedroom detached duplex house</h6></a>
+                                <p class="medium-font pink my-0">For Rent</p>
+                                <p class="light-font grey my-1">Ikate Elegushi, Lekki Phase 1, Lagos.</p>                                
+                            </div>
+                            
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    </button>-->
+                                    <div class="dropdown-menu">
+                                      <!-- Dropdown menu links -->
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                </div>
+
+                                <p class="float-right pink">&dollar; 170,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="office-item h-100 px-1 px-lg-2 mb-3">
+                        <div class="card h-100">
+                            <a href="#"><img class="homes-item-img img-fluid" src="assets/images/hot-ad-image1.jpg" alt="house-image"></a>
+
+                            <div class="office-item-text mx-3 mt-2">
+                                <a class="text-decoration-none" href="#"><h6 class="medium-font grey my-0">5 bedroom detached duplex house</h6></a>
+                                <p class="medium-font pink my-0">For Rent</p>
+                                <p class="light-font grey my-1">Ikate Elegushi, Lekki Phase 1, Lagos.</p>                                
+                            </div>
+                            
+                            <div class="homes-item-action mx-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-plus grey"></i></button>
+                                    <!-- <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    </button>-->
+                                    <div class="dropdown-menu">
+                                      <!-- Dropdown menu links -->
+                                      <a class="dropdown-item light-font black" href="#">Add to Collection</a>
+                                      <a class="dropdown-item light-font black" href="#">Send a Message</a>
+                                      <a class="dropdown-item light-font black" href="#">More Details</a>
+                                    </div>
+                                </div>
+
+                                <p class="float-right pink">&dollar; 170,000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-toggler-right d-none d-md-block position-absolute">
+                        <a class="medium-font black" href="#"><i class="fas fa-angle-right"></i></a>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-menu justify-content-around pt-3">
+            <div class="footer-note text-center">
+                <a class="footer-logo-link medium-font grey text-decoration-none" href="#">
+                    <img class="footer-logo" src="assets/images/dummy-logo.png" alt=""> PROPERTEER
+                </a>
+
+                <p class="light-font grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti architecto vero nesciunt? Atque nam voluptates aliquam! Corporis veniam harum alias.</p>
+            </div>
+
+            <div class="footer-links-wrapper px-3">
+                <h6 class="medium-font pink">CATEGORIES</h6>
+                <hr class="categories-divider bg-pink m-0 mb-2">
+
+                <div class="footer-links">
+                    <div class="links-a">
+                        <a class="grey light-font text-decoration-none" href="#">Real Estate</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Automotives</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Electronics</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Clothing</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Fashion</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Food &amp; Drink</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Kids</a><br>
+                    </div>
+
+                    <div class="links-b">
+                        <a class="grey light-font text-decoration-none" href="#">Real Estate</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Automotives</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Electronics</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Clothing</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Fashion</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Food &amp; Drink</a><br>
+                        <a class="grey light-font text-decoration-none" href="#">Kids</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-navigation d-none d-md-inline">
+                <h6 class="medium-font pink">NAVIGATION</h6>
+                <hr class="navigation-divider bg-pink m-0 mb-2">
+
+                <a class="grey light-font text-decoration-none" href="#">Home</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Sign In</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Sign Up</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Terms &amp; Conditions</a><br>
+                <a class="grey light-font text-decoration-none" href="#">FAQ</a><br>
+                <a class="grey light-font text-decoration-none" href="#">Help</a>
+            </div>
+
+            <div class="footer-settings d-none d-md-inline">
+                <label class="medium-font pink mr-1" for="country">COUNTRY</label>
+                <select id="country" class="border grey rounded p-1">
+                   <option value="#">Lagos</option>
+                   <option value="#">Abuja</option>
+                   <option value="#">Enugu</option> 
+                </select><br>
+
+                <label class="medium-font pink mr-1" for="language">LANGUAGE</label>
+                <select id="language" class="border grey rounded p-1">
+                   <option value="#">English</option>
+                   <option value="#">Abuja</option>
+                   <option value="#">Enugu</option> 
+                </select><br>
+
+                <label class="medium-font pink mr-1" for="country">CURRENCY</label>
+                <select id="currency" class="border grey rounded p-1">
+                   <option value="#">Naira</option>
+                   <option value="#">Abuja</option>
+                   <option value="#">Enugu</option> 
+                </select>
+            </div>
+        </div>
+
+        <hr class="mt-2 mb-1">
+
+        <div class="footer-base light-font mx-4 py-2 text-center">
+            <div class="footer-credit float-md-left">
+                <small class="grey">Copyright 2021 Properteer. All Rights Reserved</small>
+            </div>
+
+            <div class="social-links grey float-md-right">
+                <i class="fab fa-yahoo"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
